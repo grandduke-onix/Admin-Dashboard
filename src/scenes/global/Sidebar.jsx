@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
-import { Box, IconButton, Link, Typography, useTheme } from "@mui/material";
+import { Link } from "react-router-dom";
+import { Box, IconButton, Typography, useTheme } from "@mui/material";
 import { tokens } from "../../theme";
 import { Menu, ProSidebar, MenuItem } from "react-pro-sidebar";
 
@@ -143,8 +144,8 @@ const Sidebar = function () {
 							setSelected={setSelected}
 						/>
 						<Item
-							title="COntacts Information"
-							to="/"
+							title="Contacts Information"
+							to="/contacts"
 							icon={<ContactsOutlinedIcon />}
 							selected={selected}
 							setSelected={setSelected}
@@ -225,7 +226,6 @@ const Sidebar = function () {
 					</Box>
 				</Menu>
 			</ProSidebar>
-			egg
 		</Box>
 	);
 };
