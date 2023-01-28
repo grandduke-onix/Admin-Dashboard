@@ -8,7 +8,7 @@ const Header = function (props) {
 	const colors = tokens(theme.palette.mode);
 
 	return (
-		<Box>
+		<Box m="30px">
 			<Typography variant="h2" color={colors.grey[100]} fontWeight="bold" sx={{ mb: "5px" }}>
 				{props.title}
 			</Typography>
