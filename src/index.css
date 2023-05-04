@@ -24,6 +24,10 @@ body,
 	font-family: "Source Sans Pro", sans-serif;
 }
 
+.content {
+	overflow: auto;
+}
+
 .app {
 	display: flex;
 	position: relative;
